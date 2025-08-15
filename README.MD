@@ -1,10 +1,14 @@
 # README
 
-## What is this archive?
+This is an archive of the data and plotting scripts used in the paper _Towards a unified injection model of short-lived radioisotopes in N-body simulations of star-forming regions_, I am coming up to the end of this postdoc, and just wanted to make sure it is somewhere.
 
-## What are the contents?
+A more complete data set has been backed up privately, and is available upon request. 
 
-### `paper_data`
+# `python_scripts`
+
+A collection of scripts that were used to plot the data in the paper. Some of these are quite sloppily written, so your mileage as to whether it works on your machine varies.
+
+# `paper_data`
 - `data.tar`'
   - Contains all simulation output data:
     - Simulations are indexed in the form:
@@ -18,10 +22,7 @@
       - `cluster-yield.csv`: total yields over time, used to show that simulation is operating as it is running
   - This has been tarballed due to the extremely large number of individual files (~30,000 files)
     - No compression has been applied, as all of the data has already been compressed with ZSTD
-    - An additional compression layer would result in significantly longer extraction time for a marginal size decrease 
-  - Note: This archive is too large to store on GitHub, as such, please seek out the Sheffield University data repository instead.
-
-### `python_scripts`
+    - An additional compression layer would result in significantly longer extraction time for a marginal size decrease.
 
 
 
